@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+    *author: Lara Patricio Roberto Angel, Peña Sanchez Angel Eduardo, Santiago Garibay Sebastian
+    *date: 28/11/2020
+    *description: Suma de matrices
+    */
+
 #define MAX 100
 
 void ingresarMatriz(int filas, int columnas, int matriz[MAX][MAX]) {
