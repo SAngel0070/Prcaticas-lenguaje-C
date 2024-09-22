@@ -5,7 +5,7 @@
 void ingresarMatriz(int filas, int columnas, int matriz[MAX][MAX]) {
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
-            printf("Introduce el elemento [%d][%d]: ", i, j);
+            printf("Introduce el elemento [%d][%d]: ", i+1, j+1);
             scanf("%d", &matriz[i][j]);
         }
     }
